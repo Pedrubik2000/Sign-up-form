@@ -1,0 +1,19 @@
+/* container */
+.two-columns-grid {
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+}
+
+/* columns */
+.two-columns-grid > * {
+    padding:1rem;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+#left-column{
+    background-image: url(img/uzumaki.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
